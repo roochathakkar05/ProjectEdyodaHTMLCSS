@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+		<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/2.jpg"alt="Taj Mahal, Agra, India" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>Taj Mahal, Agra, India</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%;overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div style="overflow-x:auto;">
+		<!-- text about the place -->
+		<p class="text">
+			India is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Bounded by the Indian Ocean on the south, the Arabian Sea on the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China, Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand and Indonesia.<br><br>
+			The Indian subcontinent was home to the Indus Valley Civilisation of the bronze age. In India's iron age, the oldest scriptures of Hinduism were composed, social stratification based on caste emerged, and Buddhism and Jainism arose. Political consolidations took place under the Maurya and Gupta Empires; the peninsular Middle Kingdoms influenced the cultures of Southeast Asia. In India's medieval era, Judaism, Zoroastrianism, Christianity, and Islam arrived, and Sikhism emerged, adding to a diverse culture. <br><br>
+			North India fell to the Delhi Sultanate; south India was united under the Vijayanagara Empire. In the early modern era, the expansive Mughal Empire was followed by East India Company rule. India's modern age was marked by British Crown rule and a nationalist movement which, under Mahatma Gandhi, was noted for nonviolence and led to India's independence in 1947.<br><br>
+			The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan, the builder. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.
+			Construction of the mausoleum was essentially completed in 1643 but work continued on other phases of the project for another 10 years. The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around 32 million rupees, which in 2015 would be approximately 52.8 billion rupees (U.S. $827 million). The construction project employed some 20,000 artisans under the guidance of a board of architects led by the court architect to the emperor, Ustad Ahmad Lahauri.<br><br>
+			The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage". It is regarded by many as the best example of Mughal architecture and a symbol of India's rich history. The Taj Mahal attracts 7–8 million visitors a year and in 2007, it was declared a winner of the New7Wonders of the World (2000–2007) initiative.<br><br>
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/9.jpg"alt="Singapore River, Singapore" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>Singapore River, Singapore</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%;overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div style="overflow-x:auto;">
+		<!-- text about the place -->
+		<p class="text">
+			Singapore, is an island city-state in Southeast Asia. It lies one degree (137 kilometres or 85 miles) north of the equator, at the southern tip of the Malay Peninsula, with Indonesia's Riau Islands to the south and Peninsular Malaysia to the north. Singapore's territory consists of one main island along with 62 other islets. Since independence, extensive land reclamation has increased its total size by 23% (130 square kilometres or 50 square miles). The nation is known for its transition from a developing to a developed country in a single generation under the leadership of its founding Prime Minister Lee Kuan Yew.<br><br>
+
+			In 1819, Sir Stamford Raffles founded colonial Singapore as a trading post of the British East India Company. After the company's collapse in 1858, the islands were ceded to the British Raj as a crown colony. During the Second World War, Singapore was occupied by Japan. It gained independence from the British Empire in 1963 by joining Malaysia along with other former British territories (Sabah and Sarawak), but separated two years later over ideological differences, becoming a sovereign state in 1965. After early years of turbulence and despite lacking natural resources and a hinterland, the nation developed rapidly as an Asian Tiger economy, based on external trade and its workforce.<br><br>
+
+			The mouth of the Singapore River was the old Port of Singapore, being naturally sheltered by the southern islands. Historically, the city of Singapore initially grew around the port so the river mouth became the centre of trade, commerce and finance.<br><br>
+
+			At one time, Singapore River was the very lifeblood of the colony, the trade artery, the center of commercial activity, the heart of entrepot trade, the vessel of importance, the capillaries of life and the place which was frequented by the secret societies, the swaylos (Cantonese for coolies who worked on a boat) and the coolies who worked for the philanthropist Tan Tock Seng at Ellenborough Market and the towkay (Hokkien for business owner) Tan Kim Seng who was busy filling his godown with the riches of the East.<br><br>
+
+			Singapore River is where the colourful and romantic history of the river and the myths and legends can still conjure up memories of the lighters, bumboats, tongkangs with their painted eyes to see the danger ahead and sampans of yesteryear. This is where the Malayan princes once sailed and this is where the bullock carts plodded their way up and down each bank as the river found its way to the former rocky river mouth. This is also where an early civilisation was conquered by the Javanese Majapahit Empire, in the year 1376.<br><br>
+
+			Aerial panorama of Singapore's Downtown Core. The Singapore River sits at the bottom left of the image.<br><br>
+
+			Boat Quay along the banks of the Singapore River, circa 1900s
+			Some of the temples, shrines and other places of worship still stand in the vicinity of the river. Bridges such as Anderson Bridge, Elgin Bridge and Cavenagh Bridge still remain, the Merlion, the shophouses, and the large trees such as Banyan and Madras Thorn. Some parts of this area include quays such as Clarke Quay, Boat Quay and Robertson Quay, which generated trade and extensive demand for services with the boats that landed at the quays. Boat Quay itself was handling three quarters of the shipping service in the 1860s. Shophouses and warehouses flourished around the quays due to their proximity to trade during the colonial era, but presently house various bars, pubs and restaurants, as well as old shops.<br><br>
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

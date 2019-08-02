@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+		<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/5.jpg"alt="Opera House, Sydney, Australia" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>Opera House, Sydney, Australia</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%;overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div style="overflow-x:auto;">
+		<!-- text about the place -->
+		<p class="text">
+			Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country in Oceania and the world's sixth-largest country by total area. The neighbouring countries are Papua New Guinea, Indonesia, and East Timor to the north; the Solomon Islands and Vanuatu to the north-east; and New Zealand to the south-east. The population of 25 million is highly urbanised and heavily concentrated on the eastern seaboard. Australia's capital is Canberra, and its largest city is Sydney. The country's other major metropolitan areas are Melbourne, Brisbane, Perth, and Adelaide.<br><br>
+			Indigenous Australians inhabited the continent for about 65,000 years prior to European discovery with the arrival of Dutch explorers in the early 17th century, who named it New Holland. In 1770, Australia's eastern half was claimed by Great Britain and initially settled through penal transportation to the colony of New South Wales from 26 January 1788, a date which became Australia's national day. The population grew steadily in subsequent decades, and by the time of an 1850s gold rush, most of the continent had been explored and an additional five self-governing crown colonies established. On 1 January 1901, the six colonies federated, forming the Commonwealth of Australia. Australia has since maintained a stable liberal democratic political system that functions as a federal parliamentary constitutional monarchy, comprising six states and ten territories.
+			Being the oldest,[15] flattest and driest inhabited continent, with the least fertile soils, Australia has a landmass of 7,617,930 square kilometres (2,941,300 sq mi). A megadiverse country, its size gives it a wide variety of landscapes, with deserts in the centre, tropical rainforests in the north-east and mountain ranges in the south-east. Its population density, 2.8 inhabitants per square kilometre, remains among the lowest in the world. Australia generates its income from various sources including mining-related exports, telecommunications, banking, and manufacturing.<br><br>
+			The Sydney Opera House is a multi-venue performing arts centre at Sydney Harbour in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings.Designed by Danish architect Jørn Utzon, the building was formally opened on 20 October 1973 after a gestation beginning with Utzon's 1957 selection as winner of an international design competition. The Government of New South Wales, led by the premier, Joseph Cahill, authorised work to begin in 1958 with Utzon directing construction. The government's decision to build Utzon's design is often overshadowed by circumstances that followed, including cost and scheduling overruns as well as the architect's ultimate resignation.<br><br>
+			The building and its surrounds occupy the whole of Bennelong Point on Sydney Harbour, between Sydney Cove and Farm Cove, adjacent to the Sydney central business district and the Royal Botanic Gardens, and close by the Sydney Harbour Bridge.<br><br>
+			The building comprises multiple performance venues, which together host well over 1,500 performances annually, attended by more than 1.2 million people. Performances are presented by numerous performing artists, including three resident companies: Opera Australia, the Sydney Theatre Company and the Sydney Symphony Orchestra. As one of the most popular visitor attractions in Australia, the site is visited by more than eight million people annually, and approximately 350,000 visitors take a guided tour of the building each year. The building is managed by the Sydney Opera House Trust, an agency of the New South Wales State Government.<br><br>
+
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

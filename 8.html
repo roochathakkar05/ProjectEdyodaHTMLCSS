@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+		<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/8.jpg"alt="CN Towers, Toronto, Canada" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>CN Towers, Toronto, Canada</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%;overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div style="overflow-x:auto;">
+		<!-- text about the place -->
+		<p class="text">
+			Canada (Canadian French: [kanadɑ] About this soundlisten (help·info)) is a country in the northern part of North America. Its ten provinces and three territories extend from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres (3.85 million square miles), making it the world's second-largest country by total area. Its southern border with the United States, stretching some 8,891 kilometres (5,525 mi), is the world's longest bi-national land border. Canada's capital is Ottawa, and its three largest metropolitan areas are Toronto, Montreal, and Vancouver.<br><br>
+
+			As a whole, Canada is sparsely populated, the majority of its land area being dominated by forest and tundra. Its population is highly urbanized, with over 80 percent of its inhabitants concentrated in large and medium-sized cities, and 70 percent of citizens residing within 100 kilometres (62 mi) of the southern border. Canada's climate varies widely across its vast area, ranging from arctic weather in the north, to hot summers in the southern regions, with four distinct seasons.<br><br>
+
+			Various indigenous peoples have inhabited what is now Canada for thousands of years before European colonization. Beginning in the 16th century, British and French expeditions explored and later settled along the Atlantic coast. As a consequence of various armed conflicts, France ceded nearly all of its colonies in North America in 1763. In 1867, with the union of three British North American colonies through Confederation, Canada was formed as a federal dominion of four provinces. This began an accretion of provinces and territories and a process of increasing autonomy from the United Kingdom. This widening autonomy was highlighted by the Statute of Westminster of 1931 and culminated in the Canada Act of 1982, which severed the vestiges of legal dependence on the British parliament.<br><br>
+
+			Canada is a parliamentary democracy and a constitutional monarchy in the Westminster tradition, with Elizabeth II as its queen and a prime minister who serves as the chair of the Cabinet and head of government. The country is a realm within the Commonwealth of Nations, a member of the Francophonie and officially bilingual at the federal level. It ranks among the highest in international measurements of government transparency, civil liberties, quality of life, economic freedom, and education. It is one of the world's most ethnically diverse and multicultural nations, the product of large-scale immigration from many other countries. Canada's long and complex relationship with the United States has had a significant impact on its economy and culture.<br><br>
+			The CN Tower (French: Tour CN) is a 553.3 m-high (1,815.3 ft) concrete communications and observation tower located in Downtown Toronto, Ontario, Canada.Built on the former Railway Lands, it was completed in 1976. Its name "CN" originally referred to Canadian National, the railway company that built the tower. Following the railway's decision to divest non-core freight railway assets prior to the company's privatization in 1995, it transferred the tower to the Canada Lands Company, a federal Crown corporation responsible for real estate development.<br><br>
+
+			The CN Tower held the record for the world's tallest free-standing structure for 32 years until 2007 when it was surpassed by the Burj Khalifa and was the world's tallest tower until 2009 when it was surpassed by the Canton Tower. It is now the ninth tallest free-standing structure in the world and remains the tallest free-standing structure in the Western Hemisphere. In 1995, the CN Tower was declared one of the modern Seven Wonders of the World by the American Society of Civil Engineers. It also belongs to the World Federation of Great Towers.<br><br>
+
+			It is a signature icon of Toronto's skyline and attracts more than two million international visitors annually.<br><br>
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

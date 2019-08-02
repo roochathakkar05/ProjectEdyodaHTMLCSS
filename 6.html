@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+		<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/6.jpg"alt="Twin Tower, Kuala-Lampur, Malaysia" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>Twin Tower, Kuala-Lampur, Malaysia</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%;overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div style="overflow-x:auto;">
+		<!-- text about the place -->
+		<p class="text">
+			Malaysia is a country in Southeast Asia. The federal constitutional monarchy consists of 13 states and three federal territories, separated by the South China Sea into two similarly sized regions, Peninsular Malaysia and East Malaysia(Malaysian Borneo). Peninsular Malaysia shares a land and maritime border with Thailand and maritime borders with Singapore, Vietnam, and Indonesia. East Malaysia shares land and maritime borders with Brunei and Indonesia and a maritime border with the Philippines and Vietnam. Kuala Lumpur is the national capital and largest city while Putrajaya is the seat of federal government. With a population of over 30 million, Malaysia is the world's 44th most populous country. The southernmost point of continental Eurasia, Tanjung Piai, is in Malaysia. In the tropics, Malaysia is one of 17 megadiverse countries, with large numbers of endemic species.<br><br>
+			Malaysia has its origins in the Malay kingdoms which, from the 18th century, became subject to the British Empire, along with the British Straits Settlements protectorate. Peninsular Malaysia was unified as the Malayan Union in 1946. Malaya was restructured as the Federation of Malaya in 1948, and achieved independence on 31 August 1957. Malaya united with North Borneo, Sarawak, and Singapore on 16 September 1963 to become Malaysia. In 1965, Singapore was expelled from the federation.[12]<br><br>
+			The country is multi-ethnic and multi-cultural, which plays a large role in its politics. About half the population is ethnically Malay, with large minorities of Malaysian Chinese, Malaysian Indians, and indigenous peoples. While recognising Islam as the country's established religion, the constitution grants freedom of religion to non-Muslims. The government system is closely modelled on the Westminster parliamentary system and the legal system is based on common law. The head of state is the king, known as the Yang di-Pertuan Agong. He is an elected monarch chosen from the hereditary rulers of the nine Malay states every five years. The head of government is the Prime Minister. The country's official language is Malaysian, a standard form of the Malay language. English remains an active second language.<br><br>
+
+			Petronas Twin Towers, pair of skyscraper office buildings in Kuala Lumpur, Malaysia, that are among the world’s tallest buildings. The Twin Towers, built to house the headquarters of Petronas, the national petroleum company of Malaysia, were designed by the Argentine-born American architect Cesar Pelli; they were completed in 1998. The plan for each tower is identical: an eight-lobed circular structure that contains 88 stories of occupiable space and a pyramid-shaped pinnacle surmounted by a slender steel spire. Both rise to a height of 1,483 feet (451.9 metres), which includes 242 feet (73.6 metres) for pinnacle and spire. Each building is supported by 16 large columns around its perimeter, which, along with the rest of the frame, are made of high-strength, steel-reinforced concrete rather than of structural steel; the exterior sheathing consists of stainless steel and glass. A skybridge two stories tall links the two towers between the 41st and 42nd stories.<br><br>
+
+			In 1996, after the spires had been attached to the buildings (and each had thus reached its full height), the Petronas Twin Towers were declared the world’s tallest buildings, eclipsing the former record holder, the 110-story Sears (now Willis) Tower in Chicago. The roof of the Sears Tower was actually more than 200 feet (60 metres) higher than those of the Twin Towers, but the spires on the towers’ pinnacles were regarded as integral parts of the overall architectural structure (see Researcher’s Note: Heights of buildings). The Twin Towers, in turn, lost their preeminent status in 2003 after a spire was put in place atop the Taipei 101 (Taipei Financial Center) building, in Taipei, Taiwan, and that structure reached a height of 1,667 feet (508 metres).<br><br>
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

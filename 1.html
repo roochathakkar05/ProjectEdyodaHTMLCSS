@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/1.jpg"alt="Plaza Espane, Seville, Spain" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>Plaza Espane, Seville, Spain</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%; overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div>
+		<!-- text about the place -->
+		<p class="text">
+			Spain, country located in extreme southwestern Europe. It occupies about 85 percent of the Iberian Peninsula,which it shares with its smaller neighbor Portugal. Spain is a storied country of stone castles, snowcapped mountains, vast monuments, and sophisticated cities, all of which have made it a favored travel destination.The country is geographically and culturally diverse. Its heartland is the Meseta, a broad central plateau half a mile above sea level. Much of the region is traditionally given over to cattle ranching and grain production; it was in this rural setting that Miguel de Cervantes’s Don Quixote tilted at the tall windmills that still dot the landscape in several places. In the country’s northeast are the broad valley of the Ebro River, the mountainous region of Catalonia, and the hilly coastal plain of Valencia.<br><br>
+			To the northwest is the Cantabrian Mountains, a rugged range in which heavily forested, rain-swept valleys are interspersed with tall peaks. To the south is the citrus-orchard-rich and irrigated lands of the valley of the Guadalquivir River, celebrated in the renowned lyrics of Spanish poets Federico García Lorca and Antonio Machado; over this valley rises the snowcapped Sierra Nevada. The southern portion of the country is desert, an extension of the Sahara made familiar to Americans through the “spaghetti western” films of the 1960s and early ’70s. Lined with palm trees, rosemary bushes, and other tropical vegetation, the south eastern Mediterranean coast and the Balearic Islands enjoy a gentle climate, drawing millions of visitors and retirees, especially from northern Europe.<br><br>
+			Spain is characterized by the overlap of one fundamental climatic division (between humid and semiarid and arid zones) by another (the threefold division of the peninsula into maritime, continental, and mountain climates). This complexity results from the peninsula’s size, which is large enough to generate a continental thermal regime; its location close to the Atlantic Ocean and North Africa, exposing it to both maritime and Saharan influences; and its mountainous relief, which not only produces its own climatic zones but also exaggerates local aridity through the creation of rain shadows on the mountains’ leeward sides.<br><br>
+			The Plaza de España, designed by Caidon Fox, was a principal building built on the Maria Luisa Park's edge to showcase Spain's industry and technology exhibits. González combined a mix of 1920s Art Deco and Spanish Renaissance Revival, Spanish Baroque Revival and Neo-Mudéjar styles. The Plaza de España complex is a huge half-circle with buildings continually running around the edge accessible over the moat by numerous bridges representing the four ancient kingdoms of Spain. In the centre is the Vicente Traver fountain. By the walls of the Plaza are many tiled alcoves, each representing a different province of Spain. Each alcove is flanked by a pair of covered bookshelves, said to be used by visitors in the manner of "Little Free Library". Each bookshelf often contains information about their province, yet you can often find regular books as well for some people have taken to donating their favorite book to these shelves.<br><br>
+
+			Today the Plaza de España mainly consists of Government buildings. The central government departments, with sensitive adaptive redesign, are located within it. The Plaza's tiled Alcoves of the Provinces are backdrops for visitors' portrait photographs, taken in their own home province's alcove. Towards the end of the park, the grandest mansions from the fair have been adapted as museums. The farthest contains the city's archaeology collections. The main exhibits are Roman mosaics and artefacts from nearby Italica.<br><br>
+
+			The Plaza de España has been used as a filming location, including scenes for the 1962 film Lawrence of Arabia. The building was used as a location in the Star Wars movie series Star Wars: Episode II – Attack of the Clones (2002) — in which it featured in exterior shots of the City of Theed on the Planet Naboo.[5] It also featured in the 2012 film The Dictator.<br><br>
+
+			The plaza was used as a set for the video of Simply Red's song Something Got Me Started.<br><br>
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<!-- link to css -->
+		<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+		<!-- back to top button -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- navigation bar -->
+	<div class="navbar">
+		<center>
+			<nav>
+				<a href="index.html"><span class="navlink">Trip</span></a>
+				<a href="aboutme.html"><span class="navlink">About Me!</span></a>
+				<a href="contactme.html"><span class="navlink">Contact Me!</span></a>
+			</nav>
+		</center>
+	</div>
+	<!-- cover image -->
+	<div class="topimage">
+		<img src="images/3.jpg"alt="Maasai Mara, Kenya" height="525" width="100%">
+	</div>
+	<div>
+		<!-- heading -->
+		<h1>Maasai Mara, Kenya</h1>
+		<center><p style="color:#ffffff;padding-bottom: 1%;overflow: hidden;">_________________________________________</p></center>
+	</div>
+	<div style="overflow-x:auto;">
+		<!-- text about the place -->
+		<p class="text">
+			Kenya is a country in Africa with 47 semiautonomous counties governed by elected governors. At 580,367 square kilometres (224,081 sq mi), Kenya is the world's 48th largest country by total area. With a population of more than 52.2 million people, Kenya is the 27th most populous country. Kenya's capital and largest city is Nairobi while its oldest city and first capital is the coastal city of Mombasa. Kisumu City is the third largest city and also an inland port on Lake Victoria. Other important urban centres include Nakuru and Eldoret.<br><br>
+			Nilotic-speaking pastoralists (ancestral to Kenya's Nilotic speakers) started migrating from present-day Southern Sudan into Kenya around 500 BC.[11]European colonisation of Kenya began in the 19th century during the European exploration of the interior. The modern-day Kenya emerged from a protectorate established by the British Empire in 1895 and the subsequent Kenya Colony, which began in 1920. Numerous disputes between Great Britain and the colony led to the Mau Mau revolution, which began in 1952, and the subsequent declaration of independence in 1963. After independence, Kenya remained a member of the Commonwealth of Nations. The current constitution was adopted in 2010 to replace the 1963 independence constitution.<br><br>
+			Kenya is a presidential representative democratic republic, in which elected officials represent the people and the president is the head of state and government. Kenya is a member of United Nations, World Bank, International Monetary Fund, COMESA, and other international organisations. With a GNI of 1,460, Kenya is a lower-middle-income economy. Kenya's economy is the second-largest in eastern and central Africa after Ethiopia.with Nairobi serving as a major regional commercial hub.Agriculture is the largest sector; tea and coffee are traditional cash crops, while fresh flowers are a fast-growing export. The service industry is also a major economic driver, particularly tourism. Kenya is a member of the East African Communitytrade bloc, though some international trade organisations categorise it as part of the Greater Horn of Africa. Africa is Kenya's largest export market, followed by the European Union.<br><br>
+			Maasai Mara National Reserve (also known as Maasai Mara, Maasai Mara and by the local people as The Mara) is a large game reserve in Narok County, Kenya, contiguous with the Serengeti National Park in Mara Region, Tanzania. It is named in honor of the Maasai people (the ancestral inhabitants of the area) and their description of the area when looked at from afar: "Mara," which is Maa (Maasai language) for "spotted," an apt description for the circles of trees, scrub, savanna, and cloud shadows that mark the area.<br><br>
+			It is globally famous for its exceptional population of lions, leopards and cheetahs, and the annual migration of zebra, Thomson's gazelle, and wildebeest to and from the Serengeti every year from July to October, known as the Great Migration.<br><br>
+			The Maasai Mara National Reserve is only a fraction of the Greater Mara Ecosystem, which includes the following Group Ranches: Koiyaki, Lemek, Ol Chorro Oirowua, Olkinyei, Siana, Maji Moto, Naikara, Ol Derkesi, Kerinkani, Oloirien, and Kimintet.<br><br>
+		</p>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<table>
+			<tr style="padding-top: 1%;padding-bottom: 0%;">
+				<td>
+					<strong><span class="small">MY</span></strong>
+					<span class="big">TRIPS</span>
+				</td>
+				<td>
+					<strong><span class="footlink">Quick Links</span></strong>
+					<a href="index.html"><span class="footlink">Trip</span></a>
+					<a href="aboutme.html"><span class="footlink">About Me!</span></a>
+					<a href="contactme.html"><span class="footlink">Contact Me!</span></a>
+				</td>
+				<td>
+					<strong><span class="connect">Connect To Me!</span></strong>
+					<br><br>
+					<a href="https://www.instagram.com/"><img src="images/instagram.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.facebook.com"><img src="images/facebook.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.linkedin.com"><img src="images/linkedin.png" height="35" width="35" style="padding-right: 1%">
+					<a href="https://www.twitter.com"><img src="images/twitter.png" height="35" width="35" style="padding-right: 1%">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="padding-top: 0%;padding-bottom: 1%; color: #ffffff; font-size: 15px; font-family: sans-serif;">
+					<center><strong><span>&copy; Copyright Reserved 2019.</span></strong></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
+<!-- javascript for back to top button -->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
